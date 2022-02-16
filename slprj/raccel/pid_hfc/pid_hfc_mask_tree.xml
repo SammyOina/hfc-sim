@@ -1,0 +1,2611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/SlsaMaskTree/R2020a">
+  <slsa.mm.maskTree.MaskTree type="slsa.mm.maskTree.MaskTree" uuid="896f7b6a-6a6e-4520-8194-7b459f6c898e">
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="9b70296b-b337-43b7-992c-0bfacbad1bca">
+      <blockPath>pid_hfc/Fuel Cell Stack</blockPath>
+      <childrenIds>pid_hfc:1:2</childrenIds>
+      <childrenIds>pid_hfc:1:210:415</childrenIds>
+      <childrenIds>pid_hfc:1:210:416</childrenIds>
+      <childrenIds>pid_hfc:1:210:417</childrenIds>
+      <childrenIds>pid_hfc:1:210:456</childrenIds>
+      <childrenIds>pid_hfc:1:210:457</childrenIds>
+      <childrenIds>pid_hfc:1:210:471</childrenIds>
+      <childrenIds>pid_hfc:1:3</childrenIds>
+      <childrenIds>pid_hfc:1:4</childrenIds>
+      <id>pid_hfc:1</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="b152bc69-8086-4414-ab07-079eca6254c5">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="bdc3da1e-5fe5-46af-b4f2-b6510360551d">
+          <name>FC</name>
+          <value>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</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dc008bc3-74b2-4eff-8022-10312468036f">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>PresetModel</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e60ae454-838a-434a-8677-abc2c22ab715">
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FcType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="79ace93f-f336-4b5c-bed9-db50157ba183">
+          <expression>Detailed</expression>
+          <isTunable>true</isTunable>
+          <name>Detailed</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0decab20-cc8c-4499-8f81-63bd0caf40f8">
+          <evaluate>true</evaluate>
+          <expression>[65,63]</expression>
+          <isTunable>true</isTunable>
+          <name>Eoc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b44a1fb1-eaba-413c-8f4b-dbfdb1b7119a">
+          <evaluate>true</evaluate>
+          <expression>[133.3,45]</expression>
+          <isTunable>true</isTunable>
+          <name>NomVI</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="91b188be-8a4d-4d7e-9f84-9e2f2699e02c">
+          <evaluate>true</evaluate>
+          <expression>[225,37]</expression>
+          <isTunable>true</isTunable>
+          <name>EndVI</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1e6847e2-ea86-4b70-8872-3466d59c8c59">
+          <evaluate>true</evaluate>
+          <expression>5</expression>
+          <isTunable>true</isTunable>
+          <name>Nc</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8e51976e-7d6a-46b6-8600-6042ad21afd5">
+          <evaluate>true</evaluate>
+          <expression>55</expression>
+          <isTunable>true</isTunable>
+          <name>n</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8ca2f886-5749-44db-b26f-59cc7e7a7f0d">
+          <evaluate>true</evaluate>
+          <expression>65</expression>
+          <isTunable>true</isTunable>
+          <name>TOp</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9ba04a73-1736-41e1-bd9c-9241e5f1d27f">
+          <evaluate>true</evaluate>
+          <expression>300</expression>
+          <isTunable>true</isTunable>
+          <name>AirFr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4b99f897-4021-4a5f-9cf9-440136822562">
+          <evaluate>true</evaluate>
+          <expression>[1.5,1]</expression>
+          <isTunable>true</isTunable>
+          <name>SuppPress</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="96955d89-b5ee-4d6f-916a-0e71edf666db">
+          <evaluate>true</evaluate>
+          <expression>[99.95,21,1]</expression>
+          <isTunable>true</isTunable>
+          <name>Comp</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="08eb878c-6a84-4ac0-bffa-bf8979d1c13e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SignX</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="aa5d2ce7-304c-4877-925d-7f31a79b2302">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SignY</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ce118eee-8282-4bfa-8111-b35b06a30674">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>FlowRateH2</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2cac6cd2-82e5-4db8-8808-adcbcbb0042d">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FlowRateAir</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bd43e548-1a2c-4333-bb02-5813d271dfd1">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SystemTemp</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c887c8ca-2e06-4625-b515-18e677ca3f9e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SystemPH2</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fb9110ef-a336-420a-8708-36daa7a77d5e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SystemPAir</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6a480554-89d1-4950-8ce9-61ec0a3b3c06">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FCDyn</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ca850ff9-20e1-4aaf-ac67-e8fcbf337793">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>FC_tau</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d56a978e-7e92-490f-8359-8be8850065b5">
+          <evaluate>true</evaluate>
+          <expression>80</expression>
+          <isTunable>true</isTunable>
+          <name>Peak_O2</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c9899f13-46ed-482c-b989-f9cd4d3e3f17">
+          <evaluate>true</evaluate>
+          <expression>10</expression>
+          <isTunable>true</isTunable>
+          <name>V_Under</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+%% DO NOT CHANGE THIS ORDER
+FuelCellCback(block,&apos;Inputs&apos;)
+[FC, WantBlockChoice, Ts] = FuelCellInit(block,Eoc,NomVI,EndVI,Nc,n,TOp,AirFr,SuppPress,Comp,FlowRateH2,FlowRateAir);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+
+
+</initializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="76fbc485-2149-437d-9b12-93a896c97b22">
+      <blockPath>pid_hfc/Series RLC Branch</blockPath>
+      <id>pid_hfc:12</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="67c21b46-8ece-4695-b6f3-1c6cd0d0465c">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="83a6b92c-8435-4bb9-950d-17988ebcd791">
+          <expression>R</expression>
+          <name>BranchType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="36887d7d-e61e-4de4-b605-6f2c5c604ecc">
+          <evaluate>true</evaluate>
+          <expression>15</expression>
+          <name>Resistance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="769d5f16-cec4-4019-a037-7caacbaae17e">
+          <evaluate>true</evaluate>
+          <expression>1e-3</expression>
+          <name>Inductance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5488e407-64d6-4c73-9fb4-f256d4b59b5b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SetiL0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0d39653e-2d32-4553-93f4-9a6b90e5159a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialCurrent</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6ffad67d-49df-43f6-8136-9afe6efd19f7">
+          <evaluate>true</evaluate>
+          <expression>1e-6</expression>
+          <name>Capacitance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e1d51be5-fccf-4656-a033-135e1c1614d5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Setx0</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a85ccee4-7a4e-490d-b781-faa82e9b684f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>InitialVoltage</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0316dcf8-fd64-4472-9708-59f1dea4a842">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>[s1,s2,s3,s4,r1,r2,l1,l2,c1,c2,c3,c4] = powericon(&apos;Series RLC Branch&apos;,Resistance,Inductance,Capacitance,BranchType);
+powericon(&apos;RLCCback&apos;,gcb)
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="785955a2-ea17-4643-9b50-7df1795d7516">
+      <blockPath>pid_hfc/Fuel Cell Stack/Controlled Voltage Source1</blockPath>
+      <id>pid_hfc:1:2</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="06cbd2cc-91eb-4486-977e-62a4dc5e0593">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4236f185-be0f-469b-8896-e8de72b25f34">
+          <expression>on</expression>
+          <name>Initialize</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="19a4e538-3491-42a8-bafd-122306064504">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Source_Type</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e0224274-52ab-4c77-83eb-f30f037cb9c3">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Amplitude</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="206e35ee-972d-4f8c-95be-045031c4c347">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Phase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e38bba80-952e-4614-880a-9d72867d1438">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7a1ccd4c-9e29-491c-9ed7-6357e00838a1">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>powericon(&apos;psbloadfunction&apos;,gcb,&apos;goto&apos;,&apos;Initialize&apos;);
+powericon(&apos;ControlledSourcesCback&apos;,gcb);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="9c867e8a-6069-42ac-ac33-fb323f54e79a">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Compare To Constant</blockPath>
+      <id>pid_hfc:1:210:415</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="89580b86-bd0f-4dff-9aec-a7d419ae2d38">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="410de760-0da2-44f9-9fe8-6cdafbbb29f5">
+          <expression>&gt;</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f1cb8197-d0ad-412d-920c-4f33030694e9">
+          <evaluate>true</evaluate>
+          <expression>FC.Uf_O2</expression>
+          <isTunable>true</isTunable>
+          <name>const</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="3b7e8cc8-5981-40e7-8f5f-d625759b8b5d">
+            <name>FC</name>
+            <value></value>
+            <workspace>pid_hfc:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eaa92db9-d46d-453b-8207-a786f20ac1cd">
+          <expression>boolean</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="665a16c1-c684-4259-b0da-7ec606e2756f">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+	setValue = &apos;fixdt(0, 8)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);
+
+str = [relop,&apos; C&apos;]; %default
+
+const_str = get_param(blkName, &apos;const&apos;);
+const_val = str2num(const_str);
+
+if isempty(const_val) %#ok&lt;ST2NM&gt;
+    %Expression/Variable
+    str = [relop, &apos; &apos;, strtrim(const_str)];
+else
+    if length(const_val) == 1 
+        if Simulink.data.isSupportedEnumClass(class(const_val))
+            % Special Handling for Enumerations
+            if Simulink.data.getEnumTypeInfo(class(const_val), &apos;AddClassNameToEnumNames&apos;)
+                str = [relop, &apos; &apos;, strtrim(const_str)];
+            else
+                str = [relop, &apos; &apos;, char(const_val)];
+            end
+        elseif(isfloat(const_val) || isinteger(const_val) || islogical(const_val)) 
+                str = [relop, &apos; &apos;, num2str(const_val)];
+        end
+    end
+end</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ae588a3c-a61e-4a91-88ed-707223da5c78">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Compare To Constant2</blockPath>
+      <id>pid_hfc:1:210:416</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="fee1e0e2-1ecd-460b-b48f-638899959e3f">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="20524ee3-8cfc-4d7f-8103-cb8c0fafc1c0">
+          <expression>&gt;</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5502f00e-62f6-4362-bc90-a7cd574445db">
+          <evaluate>true</evaluate>
+          <expression>FC.Imax</expression>
+          <isTunable>true</isTunable>
+          <name>const</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="8ae9370d-5e27-4ee1-ae2b-0f1b81c22126">
+            <name>FC</name>
+            <value></value>
+            <workspace>pid_hfc:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8d693fcb-949a-426a-a3cf-8bb189dcd462">
+          <expression>boolean</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4306607f-7cf5-4115-91c0-c5d29eb006be">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+	setValue = &apos;fixdt(0, 8)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);
+
+str = [relop,&apos; C&apos;]; %default
+
+const_str = get_param(blkName, &apos;const&apos;);
+const_val = str2num(const_str);
+
+if isempty(const_val) %#ok&lt;ST2NM&gt;
+    %Expression/Variable
+    str = [relop, &apos; &apos;, strtrim(const_str)];
+else
+    if length(const_val) == 1 
+        if Simulink.data.isSupportedEnumClass(class(const_val))
+            % Special Handling for Enumerations
+            if Simulink.data.getEnumTypeInfo(class(const_val), &apos;AddClassNameToEnumNames&apos;)
+                str = [relop, &apos; &apos;, strtrim(const_str)];
+            else
+                str = [relop, &apos; &apos;, char(const_val)];
+            end
+        elseif(isfloat(const_val) || isinteger(const_val) || islogical(const_val)) 
+                str = [relop, &apos; &apos;, num2str(const_val)];
+        end
+    end
+end</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="25bf8d41-845f-4140-8456-178390e1b122">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Compare To Constant3</blockPath>
+      <id>pid_hfc:1:210:417</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="165f51f5-8451-4d8b-883c-bb2dba620be2">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6f35c1c1-c7be-4267-b4ad-5d3a2a8d228e">
+          <expression>&gt;</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="edfb5cd6-adba-4133-927f-4f0e3bbb0e9f">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>const</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7b9c9147-916a-4239-b479-b39d0eaf7fb0">
+          <expression>boolean</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0b35cb64-2786-410b-b1c4-f348aa584f74">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+	setValue = &apos;fixdt(0, 8)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);
+
+str = [relop,&apos; C&apos;]; %default
+
+const_str = get_param(blkName, &apos;const&apos;);
+const_val = str2num(const_str);
+
+if isempty(const_val) %#ok&lt;ST2NM&gt;
+    %Expression/Variable
+    str = [relop, &apos; &apos;, strtrim(const_str)];
+else
+    if length(const_val) == 1 
+        if Simulink.data.isSupportedEnumClass(class(const_val))
+            % Special Handling for Enumerations
+            if Simulink.data.getEnumTypeInfo(class(const_val), &apos;AddClassNameToEnumNames&apos;)
+                str = [relop, &apos; &apos;, strtrim(const_str)];
+            else
+                str = [relop, &apos; &apos;, char(const_val)];
+            end
+        elseif(isfloat(const_val) || isinteger(const_val) || islogical(const_val)) 
+                str = [relop, &apos; &apos;, num2str(const_val)];
+        end
+    end
+end</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="b1917803-871d-4ee1-89c7-8e23fa8fb260">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Saturation Dynamic</blockPath>
+      <childrenIds>pid_hfc:1:210:456:5</childrenIds>
+      <id>pid_hfc:1:210:456</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="bf575fff-843b-45c7-8665-fce4fac93b25">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6bccca8f-d2c3-4d30-ad86-72848ae52b32">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dae8f685-b33c-48ff-9b99-daa29ef0b73d">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2754c41d-3681-498d-9829-c6528d170010">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Same as second input</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0f17aef5-bb80-4e78-ae32-b2e7d71e3c39">
+          <expression>Same as second input</expression>
+          <name>OutputDataTypeScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5d13a64a-17e7-4c98-bf6f-91523589c2fc">
+          <expression>sfix(16)</expression>
+          <name>OutDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c1ea7fb4-f2c7-436a-ad2f-572e4718ff06">
+          <expression>2^-10</expression>
+          <name>OutScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="09261037-99c5-4978-9378-4b961ef186d4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0b01377b-8aba-4bfb-8d3e-0eee01716b65">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="72aa2c65-6dad-481e-a31f-4e1a9298cad3">
+          <expression>off</expression>
+          <name>DoSatur</name>
+        </dialogParameters>
+        <initializationCode>blkH = gcbh;
+blkName = getfullname(blkH);
+
+switch_blks = {&apos;Switch&apos;,&apos;Switch2&apos;}; 
+for i = 1:length(switch_blks)
+  set_param([blkName,&apos;/&apos;,switch_blks{i}], ...
+      &apos;RndMeth&apos;, RndMeth, ...
+	  &apos;SaturateOnIntegerOverflow&apos;, DoSatur);
+end
+
+propBlk = [blkName, &apos;/Data Type Propagation&apos;];
+
+if strcmp(OutputDataTypeScalingMode, &apos;Same as second input&apos;)
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Inherit via propagation rule&apos;, ...
+                       &apos;PropScalingMode&apos;,  &apos;Inherit via propagation rule&apos;);
+else
+    scaling = OutScaling;
+    scalingMode = &apos;Specify via dialog&apos;;
+    switch OutputDataTypeScalingMode
+      case &apos;double&apos;
+        dataType = &apos;fixdt(&apos;&apos;double&apos;&apos;)&apos;;
+      case &apos;single&apos;
+        dataType = &apos;fixdt(&apos;&apos;single&apos;&apos;)&apos;;
+      case &apos;int8&apos;
+        dataType = &apos;fixdt(1,8,0)&apos;;
+      case &apos;uint8&apos;
+        dataType = &apos;fixdt(0,8,0)&apos;;
+      case &apos;int16&apos;
+        dataType = &apos;fixdt(1,16,0)&apos;;
+      case &apos;uint16&apos;
+        dataType = &apos;fixdt(0,16,0)&apos;;
+      case &apos;int32&apos;
+        dataType = &apos;fixdt(1,32,0)&apos;;
+      case &apos;uint32&apos;
+        dataType = &apos;fixdt(0,32,0)&apos;;
+      case &apos;Specify via dialog&apos;
+        dataType = OutDataType;
+        if ~isempty(OutDataTypeStr) &amp;&amp; isa(OutDataTypeStr,&apos;Simulink.NumericType&apos;) 
+          if strcmp(OutDataTypeStr.DataTypeMode, &apos;Fixed-point: unspecified scaling&apos;) 
+            scalingMode = &apos;Obtain via best precision&apos;;
+            range = [OutMin OutMax];
+            range = range(~isinf(range));
+            set_param(propBlk, &apos;ValuesUsedBestPrec&apos;, mat2str(range));
+          end
+        end
+    end
+    
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Specify via dialog&apos;, ...
+                       &apos;PropScalingMode&apos;,  scalingMode, ...
+                       &apos;PropDataType&apos;,     dataType, ...
+                       &apos;PropScaling&apos;,      scaling);
+end
+    
+</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="988d09da-909a-4ba4-92e7-06ca474dd96d">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Saturation Dynamic/Data Type Propagation</blockPath>
+      <id>pid_hfc:1:210:456:5</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="82b622eb-b16e-4a58-baf5-ff89d519457e">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="451d6246-b55b-4ead-ba56-465c412d366d">
+          <name>DblOver</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="573f3e32-19d9-4ec1-b206-6f044dd47821">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropDataTypeMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8695a67d-6f65-45e6-a4f9-b56a4e485b54">
+          <evaluate>true</evaluate>
+          <expression>fixdt(1, 16)</expression>
+          <name>PropDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e6593e84-2ec1-4a44-a244-dc67afb4c1eb">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IfRefDouble</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="aab7e5a0-1f25-4e42-8f76-8c1ce1a4caa3">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>IfRefSingle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b698c27b-6487-4824-98dc-bb7043b70d81">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IsSigned</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c77be515-6581-45d8-8e56-f9be45afd725">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="57e2c15a-aa0b-41f7-beb7-d69efd5c666f">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c4250525-7d3b-41d7-812e-614de79cba5f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>NumBitsAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e4addec8-f773-4439-8755-702b6da828c1">
+          <evaluate>true</evaluate>
+          <expression>1:128</expression>
+          <name>NumBitsAllowFinal</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d8d714c3-60bb-4660-8955-69f1e834d500">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3d4a456a-40ea-4e9a-8eb5-a837095f4dc5">
+          <evaluate>true</evaluate>
+          <expression>2^-10</expression>
+          <name>PropScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d635389e-25d2-4563-9d02-b65ad1023b9c">
+          <evaluate>true</evaluate>
+          <expression>[5 -7]</expression>
+          <name>ValuesUsedBestPrec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7ec7df48-cbc4-4152-b5ee-ae1c39160ac7">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2ce84324-8296-454c-8944-4eecb3c305a2">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1a28ef40-b349-4227-9196-61d16bd818e9">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SlopeAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="72cffe3f-48f3-4280-a2fc-5eec7afc6278">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="43039b39-bca0-4251-8519-39915ad44143">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3dc327fd-d3aa-4470-a68e-1bb1f9907a00">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>BiasAdd</name>
+        </dialogParameters>
+        <initializationCode>DblOver = 0;</initializationCode>
+      </masks>
+      <parentId>pid_hfc:1:210:456</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="dce26c4a-e17f-4330-86bd-82de2d772f38">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Saturation Dynamic1</blockPath>
+      <childrenIds>pid_hfc:1:210:457:5</childrenIds>
+      <id>pid_hfc:1:210:457</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="1891301e-b361-4f50-aec1-a84ea0227180">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3670b10f-c800-4c43-bb75-e0aa217b36dc">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="452f2582-f11a-4687-a640-9d64d0a7a343">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="26632344-5172-4af4-a9a7-1c764a1fcc89">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Same as second input</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4837a7a5-65ce-4d4a-aeeb-6edafbb218a7">
+          <expression>Same as second input</expression>
+          <name>OutputDataTypeScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6ff01f2e-8bf2-467d-a79d-bd43a34f894a">
+          <expression>sfix(16)</expression>
+          <name>OutDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8f77d522-20b4-4d54-8bb6-2e8b5491777e">
+          <expression>2^-10</expression>
+          <name>OutScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8e6a3317-c025-4afc-8dfe-4562589ee53a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="05cb6eae-4825-402e-80be-cb2f0ee9431a">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="836f6b4c-64f9-4be1-8990-965333f73fa0">
+          <expression>off</expression>
+          <name>DoSatur</name>
+        </dialogParameters>
+        <initializationCode>blkH = gcbh;
+blkName = getfullname(blkH);
+
+switch_blks = {&apos;Switch&apos;,&apos;Switch2&apos;}; 
+for i = 1:length(switch_blks)
+  set_param([blkName,&apos;/&apos;,switch_blks{i}], ...
+      &apos;RndMeth&apos;, RndMeth, ...
+	  &apos;SaturateOnIntegerOverflow&apos;, DoSatur);
+end
+
+propBlk = [blkName, &apos;/Data Type Propagation&apos;];
+
+if strcmp(OutputDataTypeScalingMode, &apos;Same as second input&apos;)
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Inherit via propagation rule&apos;, ...
+                       &apos;PropScalingMode&apos;,  &apos;Inherit via propagation rule&apos;);
+else
+    scaling = OutScaling;
+    scalingMode = &apos;Specify via dialog&apos;;
+    switch OutputDataTypeScalingMode
+      case &apos;double&apos;
+        dataType = &apos;fixdt(&apos;&apos;double&apos;&apos;)&apos;;
+      case &apos;single&apos;
+        dataType = &apos;fixdt(&apos;&apos;single&apos;&apos;)&apos;;
+      case &apos;int8&apos;
+        dataType = &apos;fixdt(1,8,0)&apos;;
+      case &apos;uint8&apos;
+        dataType = &apos;fixdt(0,8,0)&apos;;
+      case &apos;int16&apos;
+        dataType = &apos;fixdt(1,16,0)&apos;;
+      case &apos;uint16&apos;
+        dataType = &apos;fixdt(0,16,0)&apos;;
+      case &apos;int32&apos;
+        dataType = &apos;fixdt(1,32,0)&apos;;
+      case &apos;uint32&apos;
+        dataType = &apos;fixdt(0,32,0)&apos;;
+      case &apos;Specify via dialog&apos;
+        dataType = OutDataType;
+        if ~isempty(OutDataTypeStr) &amp;&amp; isa(OutDataTypeStr,&apos;Simulink.NumericType&apos;) 
+          if strcmp(OutDataTypeStr.DataTypeMode, &apos;Fixed-point: unspecified scaling&apos;) 
+            scalingMode = &apos;Obtain via best precision&apos;;
+            range = [OutMin OutMax];
+            range = range(~isinf(range));
+            set_param(propBlk, &apos;ValuesUsedBestPrec&apos;, mat2str(range));
+          end
+        end
+    end
+    
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Specify via dialog&apos;, ...
+                       &apos;PropScalingMode&apos;,  scalingMode, ...
+                       &apos;PropDataType&apos;,     dataType, ...
+                       &apos;PropScaling&apos;,      scaling);
+end
+    
+</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="38b455b8-b3e7-4be0-bc24-b3bbdbfaef9b">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Saturation Dynamic1/Data Type Propagation</blockPath>
+      <id>pid_hfc:1:210:457:5</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="b8527639-10d0-4c4c-a1c4-f6c4a194724e">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="20bc3171-7bdc-4f0d-aedb-4503b35098e2">
+          <name>DblOver</name>
+          <value>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dcb83cda-f320-4e34-a7fe-d6b1e6c7afca">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropDataTypeMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="41fa06e6-aea7-4102-a7d4-f3067bdef98e">
+          <evaluate>true</evaluate>
+          <expression>fixdt(1, 16)</expression>
+          <name>PropDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1766c178-0e41-4569-8635-661b89c5deb1">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IfRefDouble</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="840919bb-1ade-4c90-a4c1-0e745bfb3f54">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>IfRefSingle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fadb7c0d-7e57-4e7c-9c9a-5bc42bab3add">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IsSigned</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="04591793-8fdc-4faa-baa2-f6b02f831369">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c3a3dfff-814b-470d-8b9d-47d736d9393c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3c583237-d701-4f18-9d97-7bc97a680b24">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>NumBitsAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d25ac2ba-75ac-4400-877a-2b62405c547b">
+          <evaluate>true</evaluate>
+          <expression>1:128</expression>
+          <name>NumBitsAllowFinal</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a4445f7a-85cf-4ab2-93fa-468d751ba159">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1fa9ca5c-08ac-4da1-b3c9-128c20f56d72">
+          <evaluate>true</evaluate>
+          <expression>2^-10</expression>
+          <name>PropScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c2f4bef1-97b3-4a72-b4c2-6754057567f0">
+          <evaluate>true</evaluate>
+          <expression>[5 -7]</expression>
+          <name>ValuesUsedBestPrec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="620cef06-9457-445f-8c0b-1a2affd63db2">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f3567144-2759-4a02-b7da-b83fff639992">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="21ee9ca9-c141-44b0-8f18-feee2e79c814">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SlopeAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ce6348ba-068c-437e-9ac3-5219f60c2c0e">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c7745964-4c3b-4c96-abf9-28e83f46a893">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eebfdca5-cfe0-46c9-a145-cef84bd5ee7f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>BiasAdd</name>
+        </dialogParameters>
+        <initializationCode>DblOver = 0;</initializationCode>
+      </masks>
+      <parentId>pid_hfc:1:210:457</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="ef95a4a6-1847-4f1d-a559-899ef23dcf1d">
+      <blockPath>pid_hfc/Fuel Cell Stack/Model/Continuous//Detailed/CellVoltage/Uf calculator/Compare To Zero</blockPath>
+      <id>pid_hfc:1:210:471</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="8a209f22-c3d3-4b90-a7fb-c030317a75f4">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4675754c-86fa-4682-afe9-ac3bfc36cc65">
+          <expression>&gt;</expression>
+          <name>relop</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9b53eb01-ab6f-4659-bd80-dd5203c33b37">
+          <expression>uint8</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4535a9f9-46ed-4206-bfc3-5054d1f01cb7">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <initializationCode>blkName = gcb;
+
+if strcmp(get_param(gcbh,&apos;OutDataTypeStr&apos;),&apos;boolean&apos;)
+	setValue = &apos;boolean&apos;;
+else
+    setValue = &apos;fixdt(0, 8)&apos;;
+end
+
+set_param([blkName,&apos;/Compare&apos;],&apos;relop&apos;,relop, ...
+	&apos;OutDataTypeStr&apos;, setValue, &apos;ZeroCross&apos;, ZeroCross);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="b64ca288-1ef0-4a20-b1e9-43540a71bb4a">
+      <blockPath>pid_hfc/Fuel Cell Stack/Current Measurement1</blockPath>
+      <id>pid_hfc:1:3</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="5a1a2bfe-2578-489a-8bdc-193b7099dbb3">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5ecb9328-0771-482e-b074-25d49fc8ba74">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PhasorSimulation</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="13ecef60-3f29-4f30-9fee-850afb13c070">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>OutputType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="42e83ea3-9c88-4138-996f-24c1265c6d5f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>PSBequivalent</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+powericon(&apos;psbloadfunction&apos;,block,&apos;Measurement Block&apos;,&apos;Initialize&apos;);
+WantBlockChoice = powericon(&apos;MeasurementBlockInit&apos;,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+power_initmask();</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="7cbf657c-8eef-4be3-8897-50f1b5478e4f">
+      <blockPath>pid_hfc/Fuel Cell Stack/Diode1</blockPath>
+      <id>pid_hfc:1:4</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="641994e5-b8e2-40e0-bd42-4e3387efc747">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="38ff91b0-1b71-4467-85ba-d55b404fa30f">
+          <evaluate>true</evaluate>
+          <expression>FC.Rohm</expression>
+          <name>Ron</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="90b8ca9b-7cd6-4479-afe8-8dce8122f3e2">
+            <name>FC</name>
+            <value></value>
+            <workspace>pid_hfc:1</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6cb06531-b306-4d9f-8cae-d7b32dbca2b3">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Lon</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="72f777f1-52d8-4fa0-8229-57b820d25371">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Vf</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="52192636-3c68-404b-a63b-028654700de0">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>IC</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8b78e40e-cad9-4814-ba48-008d1d18ec3e">
+          <evaluate>true</evaluate>
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>UseSnubber</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9fe8d50f-2106-4939-ac52-e74fc3f4267a">
+          <evaluate>true</evaluate>
+          <expression>1e4</expression>
+          <name>Rs</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ab4c79c0-e95f-44ce-81c9-63ab7e1f153d">
+          <evaluate>true</evaluate>
+          <expression>inf</expression>
+          <name>Cs</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5a8cbcaa-e758-4d29-9450-94c8a7422fcb">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>Measurements</name>
+        </dialogParameters>
+        <initializationCode>block = gcb;
+[WantBlockChoice,Ts,X,Y,Ron,Vf] = powericon(&apos;SwitchesInit&apos;,&apos;Diode&apos;,block,Rs,Cs,Ron,Vf);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);
+
+
+
+
+</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:1</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="8fd8d975-e14b-4ccd-b618-f74fb47c59a5">
+      <blockPath>pid_hfc/PID Controller</blockPath>
+      <childrenIds>pid_hfc:2:3846</childrenIds>
+      <childrenIds>pid_hfc:2:3847</childrenIds>
+      <id>pid_hfc:2</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="0ca0725b-176a-4cef-9709-ce5b34164e42">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="49161ddb-c294-4a5d-a59a-c2d1985bb4ac">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>Controller</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ce4b1f98-ac2f-43c4-932a-f6473b63dc75">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>Form</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e6d39ce1-5e79-47ef-9552-d536074efb03">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>TimeDomain</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6fd94573-fa48-46bb-bdc7-408d3606525c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>UseExternalTs</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4e371b1e-8e83-4476-b35e-460a28b939a5">
+          <evaluate>true</evaluate>
+          <expression>-1</expression>
+          <name>SampleTime</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0ce6e802-04c5-4124-b119-66614b4afee3">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IntegratorMethod</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="408e0016-323f-4a60-aa40-48eb00585b26">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>FilterMethod</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0b0a83b5-3763-4b6c-b77f-c7345eceadce">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>ControllerParametersSource</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0b63f9c0-6661-45f7-aea9-c040abe375a5">
+          <evaluate>true</evaluate>
+          <expression>7</expression>
+          <isTunable>true</isTunable>
+          <name>P</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4d366bb1-1e92-4269-bfdf-8e43b1e92b27">
+          <evaluate>true</evaluate>
+          <expression>0.7</expression>
+          <isTunable>true</isTunable>
+          <name>I</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6a9efc6c-3fe6-44ee-be78-fda958843c2c">
+          <evaluate>true</evaluate>
+          <expression>0.35</expression>
+          <isTunable>true</isTunable>
+          <name>D</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a174aac4-d050-4c5d-8a23-63119ef47554">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>UseFilter</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="704658c8-3195-4522-807c-abf8faeb4a7b">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>N</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ef3b7de4-3dda-4c00-a62d-406a3818173c">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>TunerSelectOption</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="89151413-44fe-48ca-a5da-7817df08db07">
+          <expression>on</expression>
+          <name>ZeroCross</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4c46d9ec-e83e-4966-a024-1c4bbe75dc4a">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>InitialConditionSource</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f12472a3-589b-4162-9890-b153bd597118">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialConditionForIntegrator</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ce64041c-f02e-4a9b-9061-5969efd01a98">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>InitialConditionForFilter</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ccd8be55-bacf-4a37-b7cb-d43623ef8569">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DifferentiatorICPrevScaledInput</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f96c75c2-7eb8-42dc-822c-8ee1321eb799">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>ExternalReset</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="781aaa9c-22ff-49cf-aee3-c9f6e767cd9d">
+          <expression>off</expression>
+          <name>IgnoreLimit</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1febe770-6cec-4fe1-a1d1-bed22bba7cfd">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>TrackingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="51cb64ba-093c-41a3-9b70-cae556d1aef4">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Kt</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8c96e224-cbb9-4a79-aafb-2758b5385b66">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LimitOutput</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0163ae10-3d4b-4a1e-b0e7-43dc4361afcb">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SatLimitsSource</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b37f4b03-c9fa-4fb0-bc5b-1ec59fac4f8d">
+          <evaluate>true</evaluate>
+          <expression>inf</expression>
+          <isTunable>true</isTunable>
+          <name>UpperSaturationLimit</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d7ca5df6-c9e7-404a-b550-9d409157b153">
+          <evaluate>true</evaluate>
+          <expression>-inf</expression>
+          <isTunable>true</isTunable>
+          <name>LowerSaturationLimit</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7019802d-fa27-4087-adee-2ccbee20054b">
+          <expression>on</expression>
+          <name>LinearizeAsGain</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b0c0f7c8-ec67-4bb9-b312-f2261f7418bf">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>AntiWindupMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6b3f5036-9b54-41b0-9096-f6698d842f37">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Kb</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="088259b5-a3b7-4d79-bfeb-558726c43be0">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d9a5b388-18be-4a51-a721-9aaf331866cc">
+          <expression>off</expression>
+          <name>SaturateOnIntegerOverflow</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="89e10285-d6b6-4007-bbc9-2d3595b9318b">
+          <expression>off</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4dcdc23b-274f-41a2-b60a-81124c89c668">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>PGainOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="77f35837-cac9-4e06-bc42-c37b7cb196ae">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>PProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="16f4b757-e94f-44e4-887b-ec50ba478ae9">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>POutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a2d421c4-d08a-4543-9ae9-a0c05a285ee0">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>POutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="16efb038-a0d4-4d4b-abab-98e181af08bb">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>IGainOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b8d91812-3680-4415-b7a5-14e61baa5cd1">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>IProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e41b3cb2-13a3-4735-8c58-86be69e97ea0">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>IOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e76107fe-2c21-4678-9ba7-6d2145d3c9e9">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>IOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0c72b1cc-ad1d-404f-8c96-560b43f58db3">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>DGainOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="01b034c9-86cf-43ba-b73f-78b0ecb86959">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>DProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="53f6678d-e3c1-4f39-8f6f-3885d9bcdb1b">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="449551fb-4fed-464b-ad37-7bd31af91203">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4772e721-1c80-4913-bcd4-24fb37aca902">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>NGainOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b1f0b537-3d66-4ada-87e4-219638bc6f0b">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>NProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="df785b7b-53d5-4674-9a8e-2a89625abbaa">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>NOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="101b6587-80de-4381-955f-9fcdc8874ce4">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>NOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f8fbaf26-ae21-4994-94b5-a740473db973">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0c7852aa-6fde-4e34-b876-441c88a4a996">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ed09436a-ee35-47a3-b8e5-dbd844f7e2ed">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7b0772ee-a6c9-4b75-9e23-2a95841c2464">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Same as input</expression>
+          <name>SaturationOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0c9d0bb3-4a00-41da-8f39-ada7cc694d43">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SaturationOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a8c9a907-17e5-4a23-b8d9-0b1bda0076a4">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SaturationOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="747bcee6-c9e1-45b4-9aa7-c07a9b9b1c59">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>PParamDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bbfe3a2c-65bb-4d03-b903-e0499d073935">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>PParamMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0e3b8a80-37ee-45ad-bd5a-abdd93c14132">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>PParamMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d7b14298-b783-438e-b2d9-da8eaf82b53b">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>IParamDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="20f7daa4-fa0b-48f7-893e-645ea91022c7">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>IParamMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="efcb6e47-2ae2-4786-a4cd-4a2185bd014a">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>IParamMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ec6ee0f3-f170-4400-84ec-26ee0bac6914">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>DParamDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f3bae2dd-896e-4a8c-aff0-850b4b2c05a7">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DParamMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="cd90399a-205c-4cb7-8858-f0be43770938">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DParamMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3839bbcd-d2a9-43c9-8e24-9346df680575">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>NParamDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f61b6e7f-68d9-496b-a156-9350b49bafb3">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>NParamMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="84e1897f-963d-4872-bdc0-dc258549c8ad">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>NParamMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5a7da697-30b4-4e62-b0b7-b4de9777bc1a">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>KbParamDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e29a9096-7154-47fb-b92b-5d997a5ee640">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KbParamMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5fce3c17-31e5-42e3-b1d2-f7d5a31ccb58">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KbParamMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="709f7af7-8c89-41e3-abb6-a7fac813a91c">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>KtParamDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6493460c-c9fb-4361-b267-d989c6f95c1d">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KtParamMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b1a7f43f-17e3-4bc9-a54f-5a90fae57ca8">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KtParamMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1230fe34-fba7-418b-b386-2026a4a5e055">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>KbOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5cc8d7dd-8ec5-47c1-b8d1-d76704e13fe9">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KbOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9652bafa-21a6-4b30-8b61-9c9b9dc473a7">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KbOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6913e3fd-949f-4846-ab64-d1f140d7fd40">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>KtOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f9a0fd1c-e178-4a84-b752-3076e3a7e2e9">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KtOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bbef67f9-f431-4ee9-8bfd-11b6f628a54c">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>KtOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9511dad1-4dc0-434c-bb6e-fee160a2b393">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>IntegratorOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ad111ee0-997a-4661-94fd-f0402c6a1e28">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>IntegratorOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f1984451-1f66-4378-a206-b820054bc7a8">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>IntegratorOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3a8117de-72fb-4622-a3c0-d08d9c00d17f">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>FilterOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eb20d45d-8d3b-4005-8445-cb7497eb40b3">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>FilterOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="54336ae2-c395-4a45-8ab8-15ca31a2e5ac">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>FilterOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bc160f78-9f66-4e8e-adf1-5f7eeba62305">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI1OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a6a8e2f8-6dca-4945-a19a-fbd352359d2b">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI1OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="600d3f5b-0704-4f0d-9368-556d2997e0d2">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI1OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f34c1f15-dba6-40f0-a82d-846dba89643b">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI2OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="679ac9b5-7241-47e9-a092-6be4da91de05">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI2OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="83eabc42-1fbf-42c9-939d-c386925dba5d">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI2OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6d282240-f604-488e-b30a-c512cd45066b">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI3OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4e1d858f-7655-4b49-a9d9-421e271f6a28">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI3OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="35ba5c04-509a-4ddd-bdbd-5821707dc91f">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI3OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7590dc20-8864-44bf-b374-47d94b593e10">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI4OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="993f9ad2-8efa-4f77-94c1-f6725a0cf473">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI4OutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="91213de7-a433-4518-b620-41ba873dd051">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumI4OutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bdf76e14-3828-4284-88cd-75f62ea02462">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumDOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6a86c3bb-bdeb-425f-b0c2-33bd37c137f6">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumDOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="703085ec-6a0b-4fe7-9d97-3cd308f5ccad">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumDOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f36c5d85-b01d-4840-9559-7ceff89d342b">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumAccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b970978d-a696-4757-b98c-f5d88532a55f">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI1AccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fe94ec11-b4a6-4c06-b1d4-b76dcc48c5bc">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI2AccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="54aed479-82e7-457a-9905-4199f1274bba">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI3AccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2ca87b29-38ad-447e-896a-ac5619327a8e">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumI4AccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="628883e3-ef00-45e3-a213-94dd9aa78e52">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumDAccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7ade4966-b3d2-4ced-a02a-c22e18d0647f">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>DifferentiatorOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="49d10f75-4cbc-4638-939f-a3f0321dff0b">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DifferentiatorOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2a52a6a0-4d32-40e2-8764-aaa25a289e23">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DifferentiatorOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="927b352e-a66f-4f66-ab8d-c2f683bc1782">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>FilterDiffNumProductOutputDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1d0e78fb-9e4d-4ef8-8f87-85677a51c2d6">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>FilterDiffDenProductOutputDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6d20678e-44c6-4052-99d7-1d91d8113f8f">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>FilterDiffNumAccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3526a9d6-cc69-4bb7-b4d4-ad6daaaa8ead">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>FilterDiffDenAccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3d5d71ae-b591-44f9-b4cf-8d18b03196c1">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>FilterDiffOutCoefDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="38fe6f2e-1d20-44fd-951a-9b8b638dcbbc">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>FilterDiffOutCoefMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="78858f52-7665-454b-a37e-93d595c27b7a">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>FilterDiffOutCoefMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="36fe835f-f184-47e3-8d31-5c6fed167f1e">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>ReciprocalOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="097bb44d-ebe1-4df0-95c7-d2644e2c160e">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>ReciprocalOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="074a783e-80fa-4992-91e4-6331875bb594">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>ReciprocalOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e16f95ed-f5a2-48aa-9221-bdf7bf849fd7">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumDenOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7da89b29-598a-41cc-ac67-e8646fd15125">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumDenOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3cc63bf9-7702-4fc1-b965-aedcf941f94a">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumDenOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9a98f958-7c34-49de-b870-551a8cfe9a9c">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumNumOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b2d286f2-61a9-4f40-a9bd-fbffa0f1586e">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumNumOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8e7f0467-5b3f-4efe-a66f-fdfb2de46f26">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>SumNumOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3ed9110b-071a-45eb-8a53-f8bcf0b88676">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumDenAccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="292215a2-0c47-49e9-9da4-54023a0c2298">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>SumNumAccumDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="721e355c-5040-4405-a4b4-3193f81215a1">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>DivideOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="60e9d567-8354-49e9-aafa-6e82bc59ea0d">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DivideOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="014d5664-dcfe-42f9-83b8-990e0cdf0797">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>DivideOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="94466602-c08b-46ee-bb3c-06bd2ff065c1">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>UdiffTsProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="88b8acb4-0152-4ca6-b7fc-08fd91328418">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>UdiffTsProdOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b34fe89b-d8ea-4af6-a01f-d71f967a1042">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>UdiffTsProdOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="202c9230-7c2d-413e-ae87-c8007a7f7c45">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>NTsProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7f1112d7-12c1-4f6f-a701-92f1aeaeca48">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>NTsProdOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="137f2538-33af-433e-9ce4-e4dfeb5e3f8f">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>NTsProdOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="12de24da-e263-4fbd-8fee-c3e12e5fd6ff">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>UintegralTsProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d17d18b5-e403-4c07-95c8-215aa6e9e80b">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>UintegralTsProdOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="820f95d3-6d01-47c9-ab1b-455bc03f701d">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>UintegralTsProdOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="76311424-bae2-437f-b3c1-d386859b299f">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Inherit via internal rule</expression>
+          <name>UngainTsProdOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="12623ccc-50d2-49d6-8b79-4cc86de667e7">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>UngainTsProdOutMin</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ac2618b0-e239-4f7e-9a6d-e636493e8181">
+          <evaluate>true</evaluate>
+          <expression>[]</expression>
+          <name>UngainTsProdOutMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c7305649-22fa-4e06-a9f5-8ca4d4a40130">
+          <expression>&apos;&apos;</expression>
+          <name>IntegratorContinuousStateAttributes</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4999f9ac-7ed2-4138-b72d-05171e84a738">
+          <name>IntegratorStateIdentifier</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1807a37e-0ce2-4eda-aa2a-c32d57f72a9e">
+          <expression>off</expression>
+          <name>IntegratorStateMustResolveToSignalObject</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="47df3343-880f-4ca6-b4e2-7d2a1fff51e7">
+          <expression>Auto</expression>
+          <name>IntegratorRTWStateStorageClass</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c4d25ccf-c1db-4b1b-9668-8ebd0911ad37">
+          <name>IntegratorRTWStateStorageTypeQualifier</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="87952642-603e-48f7-80eb-9a44b7f79fc4">
+          <expression>&apos;&apos;</expression>
+          <name>FilterContinuousStateAttributes</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6808ee51-d7d9-4666-a09b-2bd0ad60290f">
+          <name>FilterStateIdentifier</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="12d6fde4-db30-4674-8b3f-85462b2ad817">
+          <expression>off</expression>
+          <name>FilterStateMustResolveToSignalObject</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7da5d16e-b2d8-4311-bbb1-b3dc1866a0ec">
+          <expression>Auto</expression>
+          <name>FilterRTWStateStorageClass</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4a0304d2-8e94-4680-96ab-465ac74ce8cd">
+          <name>FilterRTWStateStorageTypeQualifier</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="05516621-3e16-4514-bf63-0bcc1c14b018">
+          <expression>InternalParameters</expression>
+          <name>ParallelPVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="21a5b871-fc46-405e-be08-e4cdc6e59c41">
+          <expression>Disabled</expression>
+          <name>IdealPVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="14c56212-17a6-485e-b0f3-9823d9e7b2d6">
+          <expression>InternalParameters</expression>
+          <name>IVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="8254518a-a500-4a66-9056-a2020f7cdf89">
+          <expression>InternalParameters</expression>
+          <name>DVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e6a2a4fa-d0c9-4ba1-8cae-18eff20b41e5">
+          <expression>Continuous</expression>
+          <name>IntegratorVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="aa450cdc-15f5-4333-a8e2-78e369eb02d9">
+          <expression>Disabled</expression>
+          <name>SatVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c179597a-86d1-4e2e-aca4-3cd4a82a933d">
+          <expression>Passthrough</expression>
+          <name>AWVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bed469c9-9660-4f5e-9855-ae6514757644">
+          <expression>Disabled</expression>
+          <name>PCopyVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="aaeaf51b-81e3-4ba5-a3a0-a1cb4abd56ec">
+          <expression>Disabled</expression>
+          <name>TRVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d144ef74-2bae-4029-a6f3-2d98793dc6b7">
+          <expression>Forward</expression>
+          <name>FdbkBlocksVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f569190c-4205-427e-8afd-176f710d9579">
+          <expression>Disabled</expression>
+          <name>IdealPFdbkVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3d8403a2-9901-4969-a429-7c40ec2a92df">
+          <expression>Disabled</expression>
+          <name>SatFdbkVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bfac686e-5716-4126-ad01-065c7911ce99">
+          <expression>ContFilter</expression>
+          <name>DerivativeFilterVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2a96689b-9505-46df-9f50-1e140e8db4a4">
+          <expression>InternalParameters</expression>
+          <name>NVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="41389123-59e9-4ec8-afe4-1dd9cc29fa63">
+          <expression>Disabled</expression>
+          <name>NCopyVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3cc6ffce-ac95-43d2-b270-41764ab6cadd">
+          <expression>InternalICsFilter</expression>
+          <name>FilterICVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2bceffe8-39c4-4f27-9e0b-93a2ba72db90">
+          <expression>InternalICs</expression>
+          <name>IntegratorICVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="218c8e14-3ac1-4d6f-850a-b42bd3a09a2f">
+          <expression>Disabled</expression>
+          <name>ExternalResetVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="04bda8ef-0add-4406-a803-91a9df04efc2">
+          <expression>Passthrough</expression>
+          <name>TRSumVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f5c1587f-174c-407f-948e-f5acbf701bce">
+          <expression>Disabled</expression>
+          <name>SumFdbkVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4a5b2d9c-dfff-4bb1-b395-28747d08666f">
+          <expression>Sum_PID</expression>
+          <name>SumVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="66157dd8-c91d-4069-893e-f5b81b1fdc2c">
+          <expression>InternalTs</expression>
+          <name>TsampFilterVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fd4fe087-dfe4-4d4a-8cf2-79def6453331">
+          <expression>Passthrough</expression>
+          <name>TsampNgainVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="81c37ba6-efdd-4910-8f5e-86c35d95edaa">
+          <expression>Passthrough</expression>
+          <name>TsampIntegralVariant</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="779581e1-555e-4c24-8f72-25e867562a50">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Same as second input</expression>
+          <name>ExternalSaturationOutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d0c01b2d-4f3b-4d78-8b49-da84846609da">
+          <expression>Auto</expression>
+          <name>InitialConditionSetting</name>
+        </dialogParameters>
+        <initializationCode>
+blkH = gcbh;
+blkHandle = handle(gcbh);
+
+SampleTime = pidpack.PIDConfig.maskInitialization(gcbh, SampleTime);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="401c930f-8cad-44e3-905a-5188249d5843">
+      <blockPath>pid_hfc/PID Controller/Saturation/External/Saturation Dynamic</blockPath>
+      <childrenIds>pid_hfc:2:3846:5</childrenIds>
+      <id>pid_hfc:2:3846</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="44ce7c5c-b9ad-4908-9bd9-d3be365646ee">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2aa0f862-9cbb-4413-8fc9-5180bc54b175">
+          <evaluate>true</evaluate>
+          <expression>SaturationOutMin</expression>
+          <name>OutMin</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="f5c68bae-f3dd-4ee3-8f4c-97867a7ec2de">
+            <name>SaturationOutMin</name>
+            <value></value>
+            <workspace>pid_hfc:2</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="919c0da4-0bd0-4789-9492-4dfe43e14033">
+          <evaluate>true</evaluate>
+          <expression>SaturationOutMax</expression>
+          <name>OutMax</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="035d59c0-3305-4c24-8c8f-f719cd3ba98c">
+            <name>SaturationOutMax</name>
+            <value></value>
+            <workspace>pid_hfc:2</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a09499d6-47e5-4a4a-8fc9-ce56cd47daa6">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Same as second input</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d8c96598-a610-4256-aaf7-deee49d6152b">
+          <expression>Same as second input</expression>
+          <name>OutputDataTypeScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d8e0e97e-1bb1-4215-9d30-f8676998b225">
+          <expression>fixdt(1, 16)</expression>
+          <name>OutDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ed69547e-5466-49aa-8234-7840e32aa816">
+          <expression>2^-10</expression>
+          <name>OutScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="11a0045b-1337-4f1d-abb2-2388ca63535a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="170bb612-acab-485e-b9da-417b1b011c4d">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="66d48781-9a7c-41be-8dfa-c7ff2d49f750">
+          <expression>off</expression>
+          <name>DoSatur</name>
+        </dialogParameters>
+        <initializationCode>blkH = gcbh;
+blkName = getfullname(blkH);
+
+switch_blks = {&apos;Switch&apos;,&apos;Switch2&apos;}; 
+for i = 1:length(switch_blks)
+  set_param([blkName,&apos;/&apos;,switch_blks{i}], ...
+      &apos;RndMeth&apos;, RndMeth, ...
+	  &apos;SaturateOnIntegerOverflow&apos;, DoSatur);
+end
+
+propBlk = [blkName, &apos;/Data Type Propagation&apos;];
+
+if strcmp(OutputDataTypeScalingMode, &apos;Same as second input&apos;)
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Inherit via propagation rule&apos;, ...
+                       &apos;PropScalingMode&apos;,  &apos;Inherit via propagation rule&apos;);
+else
+    scaling = OutScaling;
+    scalingMode = &apos;Specify via dialog&apos;;
+    switch OutputDataTypeScalingMode
+      case &apos;double&apos;
+        dataType = &apos;fixdt(&apos;&apos;double&apos;&apos;)&apos;;
+      case &apos;single&apos;
+        dataType = &apos;fixdt(&apos;&apos;single&apos;&apos;)&apos;;
+      case &apos;int8&apos;
+        dataType = &apos;fixdt(1,8,0)&apos;;
+      case &apos;uint8&apos;
+        dataType = &apos;fixdt(0,8,0)&apos;;
+      case &apos;int16&apos;
+        dataType = &apos;fixdt(1,16,0)&apos;;
+      case &apos;uint16&apos;
+        dataType = &apos;fixdt(0,16,0)&apos;;
+      case &apos;int32&apos;
+        dataType = &apos;fixdt(1,32,0)&apos;;
+      case &apos;uint32&apos;
+        dataType = &apos;fixdt(0,32,0)&apos;;
+      case &apos;Specify via dialog&apos;
+        dataType = OutDataType;
+        if ~isempty(OutDataTypeStr) &amp;&amp; isa(OutDataTypeStr,&apos;Simulink.NumericType&apos;) 
+          if strcmp(OutDataTypeStr.DataTypeMode, &apos;Fixed-point: unspecified scaling&apos;) 
+            scalingMode = &apos;Obtain via best precision&apos;;
+            range = [OutMin OutMax];
+            range = range(~isinf(range));
+            set_param(propBlk, &apos;ValuesUsedBestPrec&apos;, mat2str(range));
+          end
+        end
+    end
+    
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Specify via dialog&apos;, ...
+                       &apos;PropScalingMode&apos;,  scalingMode, ...
+                       &apos;PropDataType&apos;,     dataType, ...
+                       &apos;PropScaling&apos;,      scaling);
+end
+    
+</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:2</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="b1ffe2a2-7d07-4123-b6ee-aa5e0bce9f9e">
+      <blockPath>pid_hfc/PID Controller/Saturation/External/Saturation Dynamic/Data Type Propagation</blockPath>
+      <id>pid_hfc:2:3846:5</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="14bbe58d-0a7d-4e85-8a74-5871efcad191">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b8e433a8-c171-421b-88cc-e3ff6c23a0d5">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropDataTypeMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d079668d-cb0b-43ec-b223-97869d497530">
+          <evaluate>true</evaluate>
+          <expression>fixdt(1, 16)</expression>
+          <name>PropDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4044ecd5-51d5-4a65-9bc4-19f2a2b25423">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IfRefDouble</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="57b731ba-08a8-4c0b-9a8f-9060d1ecbcec">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>IfRefSingle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="64f903b9-5296-40bb-8d14-1d54c8338b13">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IsSigned</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="04e6f436-d95d-41b3-8b01-44595ad45bdc">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="63348640-6968-4e42-9d50-d9869e059512">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="83230ef7-c4b1-4776-8d44-a4bf1412fc4c">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>NumBitsAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a25993da-0eaf-4dd4-98c2-162da6bb1a2f">
+          <evaluate>true</evaluate>
+          <expression>1:128</expression>
+          <name>NumBitsAllowFinal</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="32e9faef-eea3-4228-a520-f8fdce023d11">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2258a59c-ca31-4aca-bc66-d077163fc3f2">
+          <evaluate>true</evaluate>
+          <expression>2^-10</expression>
+          <name>PropScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5c9f89b6-1382-4720-9e69-b70fc0856344">
+          <evaluate>true</evaluate>
+          <expression>[5 -7]</expression>
+          <name>ValuesUsedBestPrec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9e8250ac-be35-45aa-a1ec-13b10906ebd8">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d9244ff1-2b32-443b-9313-cf3e14114a02">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2a6b8bd1-3204-4c8a-83d1-c6cacde0984b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SlopeAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="935a6408-821a-4a67-b72a-110295696817">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d33f5f12-3de2-486b-a0b1-318da6243106">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="96087bb1-ef25-4221-a02a-8dff45356f51">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>BiasAdd</name>
+        </dialogParameters>
+        <initializationCode>DblOver = 0;</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:2:3846</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="4d86a775-676a-44a2-a5c9-b260b813fa49">
+      <blockPath>pid_hfc/PID Controller/Saturation Fdbk/External/Saturation Dynamic</blockPath>
+      <childrenIds>pid_hfc:2:3847:5</childrenIds>
+      <id>pid_hfc:2:3847</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="01e15668-4671-4724-8fbe-4a7986a87503">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f55de479-6554-4da2-975b-92c91b310ce2">
+          <evaluate>true</evaluate>
+          <expression>SaturationOutMin</expression>
+          <name>OutMin</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="1a1cc546-e2e2-4cd3-b5f0-0b14077eda1c">
+            <name>SaturationOutMin</name>
+            <value></value>
+            <workspace>pid_hfc:2</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d9baafe4-0cf9-47a8-808c-e520cdb50d2b">
+          <evaluate>true</evaluate>
+          <expression>SaturationOutMax</expression>
+          <name>OutMax</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="2b2e89b5-d883-4310-99b7-bbe5ad71ea09">
+            <name>SaturationOutMax</name>
+            <value></value>
+            <workspace>pid_hfc:2</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6548804b-64b1-4fba-b472-430d1dbe797e">
+          <evaluate>true</evaluate>
+          <expression>Inherit: Same as second input</expression>
+          <name>OutDataTypeStr</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5b1bb23f-ef00-4b8f-b2cc-acf526fd27d5">
+          <expression>Same as second input</expression>
+          <name>OutputDataTypeScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="621b4366-4978-4392-be8e-90dc973792a7">
+          <expression>fixdt(1, 16)</expression>
+          <name>OutDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="845ab1f1-6716-48ad-9eed-05c2772f3f43">
+          <expression>2^-10</expression>
+          <name>OutScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e5b2d6df-611a-48b7-92f2-6a72cbe12fbb">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>LockScale</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="dca53c57-eb03-4f56-8c94-f88da41f0443">
+          <expression>Floor</expression>
+          <name>RndMeth</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="bc3ea610-8a78-4672-93da-5d14ab3da474">
+          <expression>off</expression>
+          <name>DoSatur</name>
+        </dialogParameters>
+        <initializationCode>blkH = gcbh;
+blkName = getfullname(blkH);
+
+switch_blks = {&apos;Switch&apos;,&apos;Switch2&apos;}; 
+for i = 1:length(switch_blks)
+  set_param([blkName,&apos;/&apos;,switch_blks{i}], ...
+      &apos;RndMeth&apos;, RndMeth, ...
+	  &apos;SaturateOnIntegerOverflow&apos;, DoSatur);
+end
+
+propBlk = [blkName, &apos;/Data Type Propagation&apos;];
+
+if strcmp(OutputDataTypeScalingMode, &apos;Same as second input&apos;)
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Inherit via propagation rule&apos;, ...
+                       &apos;PropScalingMode&apos;,  &apos;Inherit via propagation rule&apos;);
+else
+    scaling = OutScaling;
+    scalingMode = &apos;Specify via dialog&apos;;
+    switch OutputDataTypeScalingMode
+      case &apos;double&apos;
+        dataType = &apos;fixdt(&apos;&apos;double&apos;&apos;)&apos;;
+      case &apos;single&apos;
+        dataType = &apos;fixdt(&apos;&apos;single&apos;&apos;)&apos;;
+      case &apos;int8&apos;
+        dataType = &apos;fixdt(1,8,0)&apos;;
+      case &apos;uint8&apos;
+        dataType = &apos;fixdt(0,8,0)&apos;;
+      case &apos;int16&apos;
+        dataType = &apos;fixdt(1,16,0)&apos;;
+      case &apos;uint16&apos;
+        dataType = &apos;fixdt(0,16,0)&apos;;
+      case &apos;int32&apos;
+        dataType = &apos;fixdt(1,32,0)&apos;;
+      case &apos;uint32&apos;
+        dataType = &apos;fixdt(0,32,0)&apos;;
+      case &apos;Specify via dialog&apos;
+        dataType = OutDataType;
+        if ~isempty(OutDataTypeStr) &amp;&amp; isa(OutDataTypeStr,&apos;Simulink.NumericType&apos;) 
+          if strcmp(OutDataTypeStr.DataTypeMode, &apos;Fixed-point: unspecified scaling&apos;) 
+            scalingMode = &apos;Obtain via best precision&apos;;
+            range = [OutMin OutMax];
+            range = range(~isinf(range));
+            set_param(propBlk, &apos;ValuesUsedBestPrec&apos;, mat2str(range));
+          end
+        end
+    end
+    
+    set_param(propBlk, &apos;PropDataTypeMode&apos;, &apos;Specify via dialog&apos;, ...
+                       &apos;PropScalingMode&apos;,  scalingMode, ...
+                       &apos;PropDataType&apos;,     dataType, ...
+                       &apos;PropScaling&apos;,      scaling);
+end
+    
+</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:2</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="1cbbb257-c1ed-4ab6-9385-dfbe0b1f4b21">
+      <blockPath>pid_hfc/PID Controller/Saturation Fdbk/External/Saturation Dynamic/Data Type Propagation</blockPath>
+      <id>pid_hfc:2:3847:5</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="38e617de-c81a-4811-946d-33d353b30b43">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b9348d89-cc2b-46c2-a6c9-85fa63428894">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropDataTypeMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e0ebacfd-b1fb-4d35-80d5-4d49e4f08884">
+          <evaluate>true</evaluate>
+          <expression>fixdt(1, 16)</expression>
+          <name>PropDataType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="10d1788c-d7c2-40dc-972f-8ba9f06cee5d">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IfRefDouble</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="53a23eea-8b2f-4253-b488-8e40f9b053cb">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>IfRefSingle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="43c64e6a-2a0f-4caa-9776-0868f55cd2c4">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>IsSigned</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="23bf38a9-4c27-440c-981d-353ebce12f48">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7329ecba-85a5-429c-9cac-474746b110b6">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>NumBitsMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d35d961b-250b-4b73-a954-94bc3dd41b37">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>NumBitsAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f87af8da-d661-4b4c-91f3-77a0f0b5ab26">
+          <evaluate>true</evaluate>
+          <expression>1:128</expression>
+          <name>NumBitsAllowFinal</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="097aa949-b972-4f66-8833-5c954f759588">
+          <evaluate>true</evaluate>
+          <expression>2</expression>
+          <name>PropScalingMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="007cacc2-7c4a-44cf-8ab1-b7da1013061b">
+          <evaluate>true</evaluate>
+          <expression>2^-10</expression>
+          <name>PropScaling</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="058d45e8-f72e-4da2-aeac-b41bff6b536e">
+          <evaluate>true</evaluate>
+          <expression>[5 -7]</expression>
+          <name>ValuesUsedBestPrec</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="df9bebe3-93dc-4c0f-af2e-b63e4ad940f7">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="852c9101-3e98-4c9c-99a5-d5493ff996d5">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>SlopeMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="87178135-fab1-412f-8b9a-be12002ed86e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>SlopeAdd</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2c19ef0c-1549-487d-8db5-0b8757fe22b6">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasBase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9b82996d-b477-4c23-a201-f2623653c612">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <name>BiasMult</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a990370b-b5a4-4d81-baaa-40999099b5be">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <name>BiasAdd</name>
+        </dialogParameters>
+        <initializationCode>DblOver = 0;</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>pid_hfc:2:3847</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="6d97ed86-5117-47e8-a780-51c138de2ee5">
+      <blockPath>pid_hfc/powergui</blockPath>
+      <childrenIds>pid_hfc:8:242</childrenIds>
+      <id>pid_hfc:8</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="287998d5-d0a0-423f-ab30-42d5ebccc3d3">
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a39ca289-9099-4273-b7bc-3ea4ce352d58">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>SimulationMode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="069889ac-4125-48cf-810a-f4db7c83d8bd">
+          <evaluate>true</evaluate>
+          <expression>50e-6</expression>
+          <isTunable>true</isTunable>
+          <name>SampleTime</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a430349b-8b67-45c2-8b87-c91cc804983a">
+          <evaluate>true</evaluate>
+          <expression>60</expression>
+          <isTunable>true</isTunable>
+          <name>frequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c20ea959-11aa-43aa-aab0-07ced1d526de">
+          <evaluate>true</evaluate>
+          <expression>50</expression>
+          <isTunable>true</isTunable>
+          <name>Iterations</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="14dbaba1-cd95-4e3f-b4dd-96075b5c722a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>frequencyindice</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="25b5fac4-aeec-4c56-8760-2ce99a59d2c8">
+          <evaluate>true</evaluate>
+          <expression>100e6</expression>
+          <isTunable>true</isTunable>
+          <name>Pbase</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5b62c5a2-3cb3-46a2-ba20-1d03156c5ee5">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <isTunable>true</isTunable>
+          <name>ErrMax</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1d136e43-d92e-4e46-a29a-ad7aea107650">
+          <expression>kV</expression>
+          <isTunable>true</isTunable>
+          <name>UnitsV</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="3335d27c-2bb5-4a56-a863-ef70b94ace1d">
+          <expression>MW</expression>
+          <isTunable>true</isTunable>
+          <name>UnitsW</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b0c3c2cb-3c3c-4313-aca3-3e207de70bd4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>buscounter</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="67288597-45f2-4be9-b88b-c5050737203b">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FunctionMessages</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="53ec6c37-04cf-4e95-9812-3de761e10ac5">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>echomessages</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="87fd730b-a462-42a7-a765-6314e526ea64">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>EnableUseOfTLC</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="678e3f60-d6a4-455e-82d6-a61cb3d21d61">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>CurrentSourceSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="67e98b44-781f-46a8-a711-24e72241243a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableSnubberDevices</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="eea43371-608b-4bff-804e-410a03f01441">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableRonSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="9153b5d2-81b9-4d1e-ab0f-003d3878586a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisableVfSwitches</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a07bb3df-b48e-4acb-a9e9-0558dca8efed">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>DisplayEquations</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="5d40157b-fbff-4366-97af-1fc406f8016e">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>AutomaticDiscreteSolvers</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="967f5a17-6bf0-4c54-a806-bd973086f989">
+          <expression>Tustin/Backward Euler (TBE)</expression>
+          <isTunable>true</isTunable>
+          <name>SolverType</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="31a112d4-4855-42df-a619-86ed070e977a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Interpol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ba00b4ed-886b-4408-a788-0b834cbd6d62">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ExternalGateDelay</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="138de8b0-f85a-4ad1-a11a-c1fe9c6f131a">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>methode</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="d110ce3a-6b91-4c5a-a17e-216dd234f44c">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>Ts</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="08df421f-e10d-4817-b8b4-48d8ea194082">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>x0status</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="6d42104f-7392-478d-a328-f3d2ffc927c1">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>SPID</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2b617342-9152-4c65-8d9d-07f179756d3f">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>SwTol</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="ca46776c-b122-4775-bb22-77f2862a1984">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>HookPort</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="723105f1-6af4-44eb-a0a6-78224e09f84b">
+          <evaluate>true</evaluate>
+          <expression>1e-4</expression>
+          <isTunable>true</isTunable>
+          <name>NonlinearTolerance</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4027202e-a429-4f3d-bb88-0cb4b01ff73c">
+          <evaluate>true</evaluate>
+          <expression>100</expression>
+          <isTunable>true</isTunable>
+          <name>nMaxIteration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="99fd7ffd-0fe4-43dd-9b6e-581b74d345dc">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ContinueOnMaxIteration</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e7a8e571-48a2-4336-892c-2a9b878dcf6a">
+          <expression>warning</expression>
+          <isTunable>true</isTunable>
+          <name>RestoreLinks</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="74ce9fc9-8587-4a04-8c26-4a41c40f0715">
+          <expression>off</expression>
+          <isTunable>true</isTunable>
+          <name>ResistiveCurrentMeasurement</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="115ef241-284d-48ea-a851-28f518dc3c9c">
+          <evaluate>true</evaluate>
+          <expression>[0:2:500]</expression>
+          <isTunable>true</isTunable>
+          <name>Frange</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="fe0717fa-1ca3-4440-86d0-dd9d82553aaf">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>Ylog</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="77179272-edb5-4d1b-9ac0-a78037f4c2e6">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>Xlog</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="f0d2c1a1-0925-4244-8f29-990c800d5483">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ShowGrid</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="0fcba190-83fb-406a-b939-e381b18c1583">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>save</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="e570de22-8a19-4564-bb2a-153eca4bb780">
+          <expression>ZData</expression>
+          <isTunable>true</isTunable>
+          <name>variable</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="4161bcaa-be87-4e80-b6fb-dee86b8cc23d">
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>structure</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="1cb01ecb-58f5-4f44-9a06-d078c45315f4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>ZoomFFT</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="60cb4c1b-214a-42cc-9114-ae0de96233a7">
+          <evaluate>true</evaluate>
+          <expression>0.0</expression>
+          <isTunable>true</isTunable>
+          <name>StartTime</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="a82a8422-31c7-4ebd-8984-66a1bac3cee7">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>cycles</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="c4a15cf0-47bd-4b8e-ad58-b8608d3d9b0d">
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>DisplayStyle</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="b3c5e806-1a9e-4a39-9613-e4f82f035ed9">
+          <evaluate>true</evaluate>
+          <expression>60</expression>
+          <isTunable>true</isTunable>
+          <name>fundamental</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="7db52003-498c-4828-a13b-7cfc67eeb502">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>FreqAxis</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="445b1495-30d4-458f-82ae-41812eff9bdd">
+          <evaluate>true</evaluate>
+          <expression>1000</expression>
+          <isTunable>true</isTunable>
+          <name>MaxFrequency</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="2d0381a5-e300-4145-b620-a2d8a769ba51">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>frequencyindicesteady</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="71ed8340-e89d-460b-8fdb-b44d24a313c5">
+          <evaluate>true</evaluate>
+          <expression>1</expression>
+          <isTunable>true</isTunable>
+          <name>RmsSteady</name>
+        </dialogParameters>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="504deb74-b9ba-481f-986d-8d9f1db65bf4">
+          <evaluate>true</evaluate>
+          <expression>0</expression>
+          <isTunable>true</isTunable>
+          <name>display</name>
+        </dialogParameters>
+        <initializationCode>dispMessage = powergui(&apos;MaskInitialization&apos;,gcb,SimulationMode,SampleTime);</initializationCode>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="3b6a7038-7321-4266-8ef2-9f1bf6d21ded">
+      <blockPath>pid_hfc/powergui/EquivalentModel1</blockPath>
+      <id>pid_hfc:8:242</id>
+      <masks type="slsa.mm.maskTree.Mask" uuid="73f86444-19c0-4fa4-85af-f68b88f58e2d">
+        <cachedVariables type="slsa.mm.maskTree.Variable" uuid="ab801eaf-0ec2-4eb9-afc6-9682a6fab482">
+          <name>S</name>
+          <value>AAFJTQAAAAAOAAAAOGAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQAFwAAAAEAAACeAQAAU3dpdGNoUmVzaXN0YW5jZQAAAAAAAABTd2l0Y2hWZgAAAAAAAAAAAAAAAAAAAFN3aXRjaFR5cGUAAAAAAAAAAAAAAAAAU3dpdGNoR2F0ZUluaXRpYWxWYWx1ZQBFbmFibGVVc2VPZlRMQwAAAAAAAAAAAE91dHB1dHNUb1Jlc2V0VG9aZXJvAAAATm9FcnJvck9uTWF4SXRlcmF0aW9uAABUcwAAAAAAAAAAAAAAAAAAAAAAAAAAAEludGVycG9sYXRlAAAAAAAAAAAAAAAAU2F2ZU1hdHJpY2VzAAAAAAAAAAAAAABCdWZmZXJTaXplAAAAAAAAAAAAAAAAAFRCRU9OAAAAAAAAAAAAAAAAAAAAAAAATWcAAAAAAAAAAAAAAAAAAAAAAAAAAABNZ0NvbE5hbWVzAAAAAAAAAAAAAAAAAG5iAAAAAAAAAAAAAAAAAAAAAAAAAAAAeDAAAAAAAAAAAAAAAAAAAAAAAAAAAABTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFN3aXRjaFRvbGVyYW5jZQAAAAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAJ6NhdVvDbQ/DgAAAEAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAACAAAAAQAAAAEAAAAAAAAACQAAABAAAAAAAAAAAAAAAAAAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAAIQA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPA/DgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAABZQA4AAAAwAAAABgAAAAgAAAAJAgAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAIAAQABAAAADgAAAHAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAEAAAAAgAAAAEAAAAAAAAACQAAAEAAAAAAAAAAAAAAACLYy8meF7G/ERERERERsb96OSXhaxXwvwAAAAAAAPA/ERERERERsT8RERERERGxP7pBW32qY3U/DgAAAPAAAAAGAAAACAAAAAQAAAAAAAAABQAAAAgAAAAEAAAALwAAAAEAAAAAAAAAEAAAALwAAAB5dnZpaVNFU19XX1dGX1VfdVNfU2VQRlBsSXVJIERlREMgbCBlRiBGbHVDdWxlZWUgbGxsUyBsIHRDIENhZVNlY2x0bGtsYWwvIGMgQ1NrU3V0L3RyYUNhcmNvY2VrbmtuL3QvdERyRCBpb2lNb2xvZWRsZGFlZWVzMWQxdSAgIHIgViBlIG8gbSBsIGUgdCBuIGEgdCBnIDEgZSAgICAgICBTICAgbyAgIHUgICByICAgYyAgIGUgICAxIAAAAAAOAAAAQAEAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQAAgAAAAEAAAAIAAAAeAB5AHMAdQAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAADwPw4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAA8D8OAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPA/DgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAQAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMFgAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQAGgAAAAEAAADmDAAAY2lyY3VpdAAAAAAAAAAAAAAAAAAAAAAAAABOb0Vycm9yT25NYXhJdGVyYXRpb24AAAAAAGJhc2ljbm9ubGluZWFybW9kZWxzAAAAAAAAYmxrc3JjbmFtZXMAAAAAAAAAAAAAAAAAAABkaXN0bGluZQAAAAAAAAAAAAAAAAAAAAAAAERDTWFjaGluZXMAAAAAAAAAAAAAAAAAAAAARGlzY3JldGVTaW11bGF0aW9uAAAAAAAAAABEaXN0cmlidXRlZFBhcmFtZXRlckxpbmUAAElkZWFsU3dpdGNoAAAAAAAAAAAAAAAAAAAAQnJlYWtlcgAAAAAAAAAAAAAAAAAAAAAAAABEaW9kZQAAAAAAAAAAAAAAAAAAAAAAAAAAAFRoeXJpc3RvcnMAAAAAAAAAAAAAAAAAAAAAR1RPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNT1NGRVQAAAAAAAAAAAAAAAAAAAAAAAAAAElHQlQAAAAAAAAAAAAAAAAAAAAAAAAAAAAARm9yY2VMb25Ub1plcm8AAAAAAAAAAAAAAABHb3RvU291cmNlcwAAAAAAAAAAAAAAAAAAAExpbmVhclRyYW5zZm9ybWVycwAAAAAAAAAAbWFjaGluZXMAAAAAAAAAAAAAAAAAAAAAAABMb2FkRmxvd1BhcmFtZXRlcnMAAAAAAAAAAG1lc3VyZXhtZXRlcgAAAAAAAAAAAAAAAAAAbWVzdXJlRmx1eGVzAAAAAAAAAAAAAAAAAABtZWFzdXJlbmFtZXMAAAAAAAAAAAAAAAAAAG1vZGVsbmFtZXMAAAAAAAAAAAAAAAAAAAAAbXVsdGltZXRlcnMAAAAAAAAAAAAAAAAAAABuYm1vZGVscwAAAAAAAAAAAAAAAAAAAAAAAE5iTWFjaGluZXMAAAAAAAAAAAAAAAAAAAAATnVtYmVyT2ZTZnVuY3Rpb25Td2l0Y2hlcwBPYnNvbGV0ZU5vZGVzAAAAAAAAAAAAAAAAAE91dHB1dHMAAAAAAAAAAAAAAAAAAAAAAAAAb3V0c3RyAAAAAAAAAAAAAAAAAAAAAAAAAABybGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHJsY25hbWVzAAAAAAAAAAAAAAAAAAAAAAAAU2F0dXJhYmxlVHJhbnNmbwAAAAAAAAAAAABzb3VyY2UAAAAAAAAAAAAAAAAAAAAAAAAAAHNvdXJjZW5hbWVzAAAAAAAAAAAAAAAAAAAAU291cmNlQmxvY2tzAAAAAAAAAAAAAAAAAABzcmNzdHIAAAAAAAAAAAAAAAAAAAAAAAAAAHN5c2xlbmd0aAAAAAAAAAAAAAAAAAAAAAAAc3dpdGNoZXMAAAAAAAAAAAAAAAAAAAAAAABTd2l0Y2hOYW1lcwAAAAAAAAAAAAAAAAAAAFN3aXRjaFZmAAAAAAAAAAAAAAAAAAAAAAAAUnN3aXRjaAAAAAAAAAAAAAAAAAAAAAAAAABTUElEcmVzaXN0b3JzAAAAAAAAAAAAAAAAAHlvdXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeXR5cGUAAAAAAAAAAAAAAAAAAAAAAAAAAABTaWxlbnRNb2RlAAAAAAAAAAAAAAAAAAAAAENyZWF0ZU5ldExpc3QAAAAAAAAAAAAAAAAAT3NjaWxsYXRvcnlNb2RlcwAAAAAAAAAAAABaYmxvY2tzAAAAAAAAAAAAAAAAAAAAAAAAAFZvbHROb2RlcwAAAAAAAAAAAAAAAAAAAAAATWVhc3VyZW1lbnRCbG9jawAAAAAAAAAAAABTb3VyY2VCbG9jawAAAAAAAAAAAAAAAAAAAE5vbmxpbmVhckJsb2NrAAAAAAAAAAAAAAAAQmxvY2tJbml0aWFsU3RhdGUAAAAAAAAAAAB5M0xldmVsQ3VycmVudHMAAAAAAAAAAAAAAHkzTGV2ZWxEZXZpY2UAAAAAAAAAAAAAAAAARmx1eAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU3RhdHVzAAAAAAAAAAAAAAAAAAAAAAAAAABHYXRlcwAAAAAAAAAAAAAAAAAAAAAAAAAAAFZGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASVRBSUwAAAAAAAAAAAAAAAAAAAAAAAAAAABTd2l0Y2hUeXBlAAAAAAAAAAAAAAAAAAAAAFZvbHRhZ2VNZWFzdXJlbWVudAAAAAAAAAAAQ3VycmVudE1lYXN1cmVtZW50AAAAAAAAAABTd2l0Y2hEZXZpY2VzAAAAAAAAAAAAAAAAAE5vbmxpbmVhckRldmljZXMAAAAAAAAAAAAAU3dpdGNoR2F0ZUluaXRpYWxWYWx1ZQAAAABJbnB1dHNOb25aZXJvAAAAAAAAAAAAAAAAAERTUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUG93ZXJndWlJbmZvAAAAAAAAAAAAAAAAAABJR0JUZGlvZGUAAAAAAAAAAAAAAAAAAAAAAFRocmVlTGV2ZWxEZXZpY2VzAAAAAAAAAAAAQnJpZGdlU3JjVgAAAAAAAAAAAAAAAAAAAAB1bml0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGZyZXEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbGlzdGVfbmV1AAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1nTm90UmVkAAAAAAAAAAAAAAAAAAAAAAAATWdDb2xOYW1lc05vdFJlZAAAAAAAAAAAAABNZ19uYk5vdFJlZAAAAAAAAAAAAAAAAAAAAE1nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATWdDb2xOYW1lcwAAAAAAAAAAAAAAAAAAAABNZ19uYgAAAAAAAAAAAAAAAAAAAAAAAAAAAEFzd2l0Y2gAAAAAAAAAAAAAAAAAAAAAAAAAQnN3aXRjaAAAAAAAAAAAAAAAAAAAAAAAAABDc3dpdGNoAAAAAAAAAAAAAAAAAAAAAAAAAERzd2l0Y2gAAAAAAAAAAAAAAAAAAAAAAAAATWF0U3RhdGVEZXBlbmRlbmN5AAAAAAAAAABUb3RhbFN0YXRlcwAAAAAAAAAAAAAAAAAAAEluZGVwZW5kZW50U3RhdGVzAAAAAAAAAAAARGVwZW5kZW50U3RhdGVzAAAAAAAAAAAAAABzdGF0ZXMAAAAAAAAAAAAAAAAAAAAAAAAAAHJsc3dpdGNoAAAAAAAAAAAAAAAAAAAAAAAAWVN3aXRjaEN1cnJlbnQAAAAAAAAAAAAAAABTd2l0Y2hSZXNpc3RhbmNlAAAAAAAAAAAAAEFkVHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQmRUcgAAAAAAAAAAAAAAAAAAAAAAAAAAAABDZFRyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERkVHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAARWRUcgAAAAAAAAAAAAAAAAAAAAAAAAAAAABBZGlzY3JldGUAAAAAAAAAAAAAAAAAAAAAAEJkaXNjcmV0ZQAAAAAAAAAAAAAAAAAAAAAAQ2Rpc2NyZXRlAAAAAAAAAAAAAAAAAAAAAABEZGlzY3JldGUAAAAAAAAAAAAAAAAAAAAAAEhsaW4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAdXNzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4c3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHlzcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4MHN3aXRjaAAAAAAAAAAAAAAAAAAAAAAAAEhzd28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAdTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4c3NEZXBlbmRlbnRTdGF0ZXMAAAAAAAAAAHgwX2Jsb2NrcwAAAAAAAAAAAAAAAAAAAAAAeDBfU3RlYWR5U3RhdGUAAAAAAAAAAAAAAAB4MHBlcm0AAAAAAAAAAAAAAAAAAAAAAAAAAHgwZGlzY3JldGUAAAAAAAAAAAAAAAAAAAAAeDBBbGxTdGF0ZXMAAAAAAAAAAAAAAAAAAAB4MERlcGVuZGVudFN0YXRlcwAAAAAAAAAAAHkwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeDBzcGlkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAQAAAAcAAAABAAAAAAAAABAAAAAHAAAAcGlkX2hmYwAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPA/DgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAA3QA4AAACQAAAABgAAAAgAAAABAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAA4AAABgAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAQAAACoAAAABAAAAAAAAABAAAAAqAAAARnVlbCBDZWxsIFN0YWNrL0NvbnRyb2xsZWQgVm9sdGFnZSBTb3VyY2UxAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAKAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAA8D8OAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAALgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAAcAAAABAAAADgAAAHN0YXR1cwBibG9ja3MAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAACgAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAADgAAAHgAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAADgAAAEgAAAAGAAAACAAAAAQAAAAAAAAABQAAAAgAAAABAAAAFgAAAAEAAAAAAAAAEAAAABYAAABUNTVfNTExOV81MDIzMTg0NzExMDk4AAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAAJAAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAADgAAAGAAAAAGAAAACAAAAAQAAAAAAAAABQAAAAgAAAABAAAALAAAAAEAAAAAAAAAEAAAACwAAABwaWRfaGZjL0Z1ZWwgQ2VsbCBTdGFjay9DdXJyZW50IE1lYXN1cmVtZW50MQAAAAAOAAAAmAEAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAABsAAAABAAAAAQAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAAAAAADgAAAGgAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAIAN2zQA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAAAAAAAAOAAAAAAAAAA4AAAAoAAAABgAAAAgAAAABAAAAAAAAAAUAAAAIAAAAAAAAAAEAAAABAAAAAAAAAA4AAAAIAQAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAABsAAAABAAAAAAAAAAkAAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAAAAAOAAAAQAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAACAAAAAQAAAAAAAAAJAAAAEAAAAAAAAAAAAABAAAAAAAAA8D8OAAAAoAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAA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BgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAABAAAQAwAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAAAAAAAATkAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAAAAAAhNeXQQ4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAALUMc6+I2Gj8OAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAElADgAAADAAAAAGAAAACAAAAAQAAAAAAAAABQAAAAgAAAABAAAAAgAAAAEAAAAAAAAAEAACAGtWAAAOAAAAMAAAAAYAAAAIAAAABAAAAAAAAAAFAAAACAAAAAEAAAACAAAAAQAAAAAAAAAQAAIATVcAAA4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAADgAAADAAAAAGAAAACAAAAAkCAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAAAgABAAAAAAAOAAAAMAAAAAYAAAAIAAAACQIAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAACAAEAAAAAAA4AAAAwAAAABgAAAAgAAAAJAgAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAIAAQABAAAADgAAADAAAAAGAAAACAAAAAkCAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAAAgABAAAAAAAOAAAAMAAAAAYAAAAIAAAACQIAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAACAAEAAAAAAA4AAAAwAAAABgAAAAgAAAAJAgAA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CAAAAAAAAAABAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAAAATDbM1SwaPw4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAACgAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAADgAAACgAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAAAAAAAAQAAAAEAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAKAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADgAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAACQAAAAgAAACejYXVbw20Pw4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAEw2zNUsGj8OAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAQAAAAEAAAAAAAAACQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAQAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAA4AAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAkAAAAIAAAAAEw2zNUsGj8OAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAEAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAQAAAAEAAAAAAAAACQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAJAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAEAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAQAAAAEAAAAAAAAACQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAAAA</value>
+        </cachedVariables>
+        <dialogParameters type="slsa.mm.maskTree.DialogParameterInfo" uuid="092911d0-1510-427e-a0ff-e8dbbfc93c1a">
+          <evaluate>true</evaluate>
+          <expression>SwTol</expression>
+          <isTunable>true</isTunable>
+          <name>SwTol</name>
+          <referencedVariables type="slsa.mm.maskTree.Variable" uuid="9e0ef5bd-b22b-475b-b85b-fb6ec24df684">
+            <name>SwTol</name>
+            <value></value>
+            <workspace>pid_hfc:8</workspace>
+          </referencedVariables>
+        </dialogParameters>
+        <initializationCode>S  = GetDataForEquivalentModel(&apos;SPID&apos;,gcbh,SwTol);</initializationCode>
+      </masks>
+      <parentId>pid_hfc:8</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.maskTree.MaskedBlock" uuid="158dd426-0bbc-4a0c-bc7c-d0e2d76f6029">
+      <childrenIds>pid_hfc:1</childrenIds>
+      <childrenIds>pid_hfc:12</childrenIds>
+      <childrenIds>pid_hfc:2</childrenIds>
+      <childrenIds>pid_hfc:8</childrenIds>
+      <id>root</id>
+    </maskedBlocks>
+    <flags type="slsa.mm.maskTree.MaskTreeFlags" uuid="0d0e8e4a-c6ad-4456-a7bc-8a4ac55e5015"/>
+  </slsa.mm.maskTree.MaskTree>
+</MF0>
